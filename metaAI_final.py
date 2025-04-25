@@ -3,9 +3,9 @@ from openai import AzureOpenAI
 import random
 
 # ------------------- OpenAI Setup -------------------
-endpoint = "https://tarzanaihub010715832120.openai.azure.com"
+endpoint = "https://<endpoint_name>.openai.azure.com"
 deployment = "gpt-4o"
-api_key = "5B1zKGt43VaiGZrwPfudKIzTS47hCUn49FubkLqSP97JR1fqptsfJQQJ99BDACYeBjFXJ3w3AAAAACOGxY9o"
+api_key = "api key"
 api_version = "2024-12-01-preview"
 
 client = AzureOpenAI(
